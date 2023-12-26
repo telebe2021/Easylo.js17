@@ -1,0 +1,112 @@
+.section3 {
+    width: 100%;
+    padding: 50px 0;
+
+    .sec3con {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+
+        .sec31 {
+            width: calc(50% - 100px);
+            position: relative;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            div {
+                position: absolute;
+                width: 50%;
+                min-height: 200px;
+                background-color: #10c98f;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                color: white;
+                gap: 10px;
+                bottom: -15%;
+                right: -75px;
+
+                h1 {
+                    font-size: 72px;
+                    font-weight: 700;
+                    line-height: 1;
+                }
+            }
+        }
+
+        .sec32 {
+            width: calc(50% - 100px);
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+
+            h1 {
+                color: #0f4332;
+                font-size: 40px;
+                line-height: 1.3;
+            }
+
+            p {
+                color: gray;
+                line-height: 1.5;
+            }
+
+            hr {
+                border: 1.5px solid rgba(3, 112, 77, 0.3);
+            }
+
+            ul {
+                li {
+                    font-size: 18px;
+                    display: flex;
+                    align-items: center;
+                    &::before {
+                        content: '\2022';
+                        color: #10c98f;
+                        font-size: 50px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            button {
+                border: 2px solid #10C98F;
+                padding: 17px 45px;
+                width: 220px;
+                text-transform: uppercase;
+                color: #10C98F;
+                font-size: 16px;
+                background: none;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    background-color: #10C98F;
+                    border: 2px solid #10C98F;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section3{
+        .sec3con{
+            flex-direction: column;
+            .sec31, .sec32{
+                width: 80%;
+                div{
+                    bottom: -15%;
+                    right: -25px;
+                }
+            }
+        }
+    }
+}

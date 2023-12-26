@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chivo",sans-serif;
+}
+
+.container{
+    margin: auto;
+    padding: 0 32px;
+    max-width: 1300px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+@import 'nav';
+@import 'section1';
+@import 'section2';
+@import 'section3';
+@import 'section4';
+@import 'section5';
+@import 'section6';
+@import "footer";
+@import 'update';
+
+.upBtn{
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    background-color: #10C98F;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108,98,98,0.2);
+    transition: all .3s ease-out 0s;
+}

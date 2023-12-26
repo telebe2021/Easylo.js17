@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chivo", sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    padding: 0 32px;
+    max-width: 1300px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  nav {
+    width: 100%;
+    height: 80px;
+    background-color: #10C98F;
+    margin-bottom: 100px;
+  }
+  nav .navcon {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .navcon i {
+    display: none;
+    font-size: 24px;
+    color: white;
+  }
+  nav .navcon .fullmenu {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .navcon .fullmenu a,
+  nav .navcon .fullmenu li {
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+  }
+  nav .navcon .fullmenu li {
+    position: relative;
+  }
+  nav .navcon .fullmenu li .boxmenu {
+    background-color: white;
+    width: 120px;
+    height: 80px;
+    padding-left: 5px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  nav .navcon .fullmenu li .boxmenu a {
+    color: forestgreen;
+    transition: all 0.5s ease;
+  }
+  nav .navcon .fullmenu li .boxmenu a:hover {
+    color: aquamarine;
+    margin-left: 5px;
+  }
+  nav .navcon .fullmenu li:hover .boxmenu {
+    top: 40px;
+    opacity: 1;
+    z-index: 100;
+  }
+  nav .navcon .fullmenu button {
+    background-color: #10C98F;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+  }
+  nav .menu {
+    width: 100%;
+    background-color: #10C98F;
+    padding: 50px 0;
+    position: relative;
+    top: -500px;
+    transition: all 0.5s ease;
+  }
+  nav .menu .menucon {
+    width: 100%;
+  }
+  nav .menu .menucon .fullmenu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav .menu .menucon .fullmenu a,
+  nav .menu .menucon .fullmenu li {
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+  }
+  nav .menu .menucon .fullmenu a:hover,
+  nav .menu .menucon .fullmenu li:hover {
+    color: aquamarine;
+  }
+  nav .menu .menucon .fullmenu li {
+    position: relative;
+    transition: all 0.5s ease;
+  }
+  nav .menu .menucon .fullmenu li .boxmenu {
+    width: 110px;
+    padding-left: 15px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  nav .menu .menucon .fullmenu li .boxmenu a {
+    transition: all 0.5s ease;
+  }
+  nav .menu .menucon .fullmenu li .boxmenu a:hover {
+    color: aquamarine;
+    margin-left: 5px;
+  }
+  nav .menu .menucon .fullmenu li:hover .boxmenu {
+    top: 30px;
+    opacity: 1;
+    z-index: 100;
+  }
+  nav .menu .menucon .fullmenu li:hover {
+    margin-bottom: 90px;
+  }
+  nav .menu .menucon .fullmenu button {
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 992px) {
+    nav .navcon .fullmenu {
+      display: none;
+    }
+    nav .navcon i {
+      display: block;
+    }
+  }
+
+
+  .section2 {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .section2 .sec2con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .section2 .sec2con .card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .section2 .sec2con .card div {
+    max-width: calc(33% - 20px);
+    flex: 1 1 calc(33% - 20px);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+  }
+  
+  .section2 .sec2con .card div:hover a {
+    color: #10C98F;
+  }
+  .section2 .sec2con .card div img {
+    width: 77px;
+    height: 60px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .section2 .sec2con .card div h6 {
+    font-weight: 400;
+    color: #0C8760;
+    font-size: 14px;
+  }
+  .section2 .sec2con .card div a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0F4332;
+    line-height: 1.4;
+    transition: all 0.3s ease;
+  }
+  .section2 .sec2con .card div p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: gray;
+  }
+  
+  @media screen and (max-width: 992px) and (min-width: 576px) {
+    .section2 .sec2con .card div {
+      flex: 1 1 calc(50% - 20px);
+      max-width: calc(50% - 20px);
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .section2 .sec2con .card div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  footer {
+    width: 100%;
+    padding: 50px 0 0 0;
+  }
+  footer .footcon {
+    width: 100%;
+    padding: 50px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footcon p {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  footer .footcon p i, footer .footcon p a {
+    color: #10C98F;
+  }

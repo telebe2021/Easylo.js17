@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/styles/add.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container navcon">
+            <img src="https://preview.colorlib.com/theme/easylo/assets/img/logo/logo.png.webp" alt="">
+            <ul class="fullmenu">
+                <a href="./index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <li>Blog
+                    <ul class="boxmenu">
+                        <a href="#">Blog</a>
+                        <a href="#">Blog Details</a>
+                        <a href="#">Element</a>
+                    </ul>
+                </li>
+                <li>CRUD
+                    <ul class="boxmenu">
+                        <a href="./add.html">Add</a>
+                        <a href="./favorites.html">Favorites</a>
+                    </ul>
+                </li>
+                <a href="#">Contact</a>
+                <button>Apply For Loan</button>
+            </ul>
+            <i class="bi bi-list" id="openMenu"></i>
+        </div>
+        <div class="menu">
+            <div class="container menucon">
+                <ul class="fullmenu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <li>Blog
+                        <ul class="boxmenu">
+                            <a href="#">Blog</a>
+                            <a href="#">Blog Details</a>
+                            <a href="#">Element</a>
+                        </ul>
+                    </li>
+                    <li>CRUD
+                        <ul class="boxmenu">
+                            <a href="./add.html">Add</a>
+                            <a href="./favorites.html">Favorites</a>
+                        </ul>
+                    </li>
+                    <a href="#">Contact</a>
+                    <button>Apply For Loan</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="updatediv">
+            <form>
+                <label for="category-name">Image:</label>
+                <input type="file" id="file" accept="image/*">
+                <div class="img2"> <img src=" " id="img2" alt=""></div>
+                <label for="Name">Image Text</label>
+                <input type="text" id="imagetxt">
+                <label for="Name">Name</label>
+                <input type="text" id="name">
+                <label for="text">Text</label>
+                <input type="text" id="text">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+    </div>
+
+    <footer>
+        <div class="container footcon"><p>Copyright ©2023 All rights reserved | This template is made with <i class="bi bi-heart-fill"></i> by <a href="#">Colorlib</a></p></div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/scripts/add.js"></script>
+</body>
+
+</html>

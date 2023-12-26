@@ -1,0 +1,59 @@
+.updatediv {
+    display: none;
+    flex-direction: column;
+    top: calc(60% - 240px);
+    left: calc(50% - 190px);
+    position: fixed;
+    z-index: 1000;
+    width: 380px;
+    height: 330px;
+
+}
+
+form {
+    background: linear-gradient(to top, #001F3F 0%,#003366 25%,#508de8 50%,#9ac9ff 75%,#c2e1fb 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    border-radius: 20px;
+}
+
+form p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+input {
+    outline: none;
+}
+
+
+.img2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 99999999px;
+    border: 1px solid black;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9999999px;
+}
+
+
+#submit {
+    background-color: #c2e1fb;
+    padding: 6px 6px;
+    border: none;
+    color: #001F3F;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 12px;
+}

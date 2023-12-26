@@ -1,0 +1,175 @@
+.section1 {
+    width: 100%;
+    background: linear-gradient(rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4)), url('https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+
+    .sec1con {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 50px 32px;
+
+        .sec11 {
+            width: calc(50% - 30px);
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: white;
+
+            h1 {
+                font-size: 62px;
+                position: relative;
+                margin-bottom: 20px;
+                line-height: 1.1;
+                padding-bottom: 29px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 110px;
+                    bottom: 0px;
+                    height: 3px;
+                    left: 0;
+                    background: white;
+                }
+            }
+
+            p {
+                font-size: 24px;
+                line-height: 1.6;
+                font-weight: 500;
+            }
+
+            button {
+                border: 2px solid white;
+                padding: 17px 45px;
+                width: 250px;
+                text-transform: uppercase;
+                color: white;
+                font-size: 16px;
+                background: none;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    background-color: #10C98F;
+                    border: 2px solid #10C98F;
+                }
+            }
+        }
+
+        .sec12 {
+            width: calc(40% - 30px);
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 45px 35px 35px 35px;
+            justify-content: space-between;
+
+            p {
+                color: #3F4854;
+                font-size: 14px;
+                line-height: 1.8;
+                text-align: center;
+            }
+
+            div {
+                width: 100%;
+                position: relative;
+
+                h2 {
+                    color: #0F4332;
+                    font-size: 30px;
+                    display: block;
+                    font-weight: 700;
+                    margin-bottom: 6px;
+                    text-align: center;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 110px;
+                    bottom: -5px;
+                    height: 3px;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    margin: 0 auto;
+                    background: #10C98F;
+                }
+            }
+
+            label {
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 400;
+                color: #4C5753;
+                padding-top: 15px;
+                margin-bottom: 15px;
+
+                span {
+                    color: #10C98F;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+
+            select {
+                line-height: 30px;
+                border: 1px solid #C9D6CB;
+                height: 50px;
+                width: 100%;
+                color: #071112;
+                font-weight: 500;
+                text-transform: capitalize;
+                border-radius: 0px;
+                outline: none;
+
+                option {
+                    background-color: #10C98F;
+                    line-height: 30px;
+                    height: 50px;
+                    width: 100%;
+                }
+            }
+
+            button {
+                background: #10C98F;
+                height: 50px;
+                padding: 10px 36px;
+                border: 0;
+                color: #fff;
+                cursor: pointer;
+                font-size: 16px;
+                border-radius: 0px;
+                text-transform: uppercase;
+                font-weight: 600;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .section1{
+        .sec1con{
+            flex-direction: column;
+            .sec11{
+                width: 100%;
+            }
+            .sec12{
+                width: 80%;
+            }
+        }
+    }
+}

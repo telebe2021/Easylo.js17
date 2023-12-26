@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services1.svg",
+      "imagetxt": "Home Loan",
+      "name": "What are my options and the cost to exercise?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 2,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services2.svg",
+      "imagetxt": "Car Loan",
+      "name": "Should I exercise now or later? How can I afford it?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 3,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services3.svg",
+      "imagetxt": "Business Loan",
+      "name": "I own my shares - can I get liquidity now without selling?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 4,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services1.svg",
+      "imagetxt": "Home Loan",
+      "name": "What are my options and the cost to exercise?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 5,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services2.svg",
+      "imagetxt": "Car Loan",
+      "name": "Should I exercise now or later? How can I afford it?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 6,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services3.svg",
+      "imagetxt": "Business Loan",
+      "name": "I own my shares - can I get liquidity now without selling?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 7,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services1.svg",
+      "imagetxt": "Home Loan",
+      "name": "What are my options and the cost to exercise?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 8,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services2.svg",
+      "imagetxt": "Car Loan",
+      "name": "Should I exercise now or later? How can I afford it?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 9,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services3.svg",
+      "imagetxt": "Business Loan",
+      "name": "I own my shares - can I get liquidity now without selling?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    }
+  ],
+  "favs": [
+    {
+      "id": 1,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services1.svg",
+      "imagetxt": "Home Loan",
+      "name": "What are my options and the cost to exercise?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 2,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services2.svg",
+      "imagetxt": "Car Loan",
+      "name": "Should I exercise now or later? How can I afford it?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 3,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services3.svg",
+      "imagetxt": "Business Loan",
+      "name": "I own my shares - can I get liquidity now without selling?",
+      "text": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    padding: 50px 0 0 0;
+    .footcon{
+        width: 100%;
+        padding: 50px 0;
+        border-top: 1px solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: gray;
+            font-weight: 500;
+            font-size: 18px;
+            letter-spacing: 2px;
+            text-align: center;
+            i, a{
+                color: #10C98F;
+            }
+        }
+    }
+}

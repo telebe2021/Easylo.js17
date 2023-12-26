@@ -1,0 +1,167 @@
+.section2{
+    width: 100%;
+    padding: 50px 0;
+    .sec2con{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        .text{
+            text-align: center;
+            width: 50%;
+            h1{
+                color: #0F4332;
+                font-weight: 700;
+                position: relative;
+                margin-bottom: 30px;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 110px;
+                    height: 3px;
+                    bottom: -20px;
+                    left: calc(50% - 55px);
+                    background-color: #10C98F;
+                }
+            }
+            p{
+                color: gray;
+                width: 80%;
+                margin: auto;
+            }
+        }
+        #search{
+            margin: 75px 0;
+            width: 200px;
+            height: 30px;
+            padding: 5px;
+        }
+        .card{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+            div{
+                max-width: calc(33% - 20px);
+                flex: 1 1 calc(33% - 20px);
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                gap: 20px;
+                .bi-heart, .bi-heart-fill{
+                    position: absolute;
+                    z-index: 10;
+                    color: red;
+                    top: 10px;
+                    right: 45px;
+                    cursor: pointer;
+                    transition: all 0.5s ease;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+                span{
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-between;
+                    .delete, .update{
+                        width: 28%;
+                        height: 25px;
+                        border: none;
+                        color: white;
+                    }
+                    .details{
+                        width: 28%;
+                        height: 25px;
+                        display: flex;
+                        button{
+                            width: 100%;
+                            height: 100%;
+                            border: none;
+                            background-color: blue;
+                            color: white;
+                        }
+                    }
+                    .delete{
+                        background-color: red;
+                    }
+                    .update{
+                        background-color: #0F4332;
+                    }
+                }
+                &:hover a{
+                    color: #10C98F;
+                }
+                img{
+                    width: 77px;
+                    height: 60px;
+                    object-fit: contain;
+                }
+                h6{
+                    font-weight: 400;
+                    color: #0C8760;
+                    font-size: 14px;
+                }
+                a{
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: #0F4332;
+                    line-height: 1.4;
+                    transition: all 0.3s ease;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: gray;
+                }
+            }
+        }
+        .load{
+            width: 200px;
+            height: 50px;
+            margin: 50px 0 0 0;
+            border: none;
+            background-color: #0F4332;
+            color: white;
+            cursor: grab;
+            &:active{
+                background-color: #10C98F;
+                cursor: grabbing;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px){
+    .section2{
+        .sec2con{
+            .text{
+                width: 100%;
+            }
+            .card{
+                div{
+                    flex: 1 1 calc(50% - 20px);
+                    max-width: calc(50% - 20px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section2{
+        .sec2con{
+            .text{
+                width: 100%;
+            }
+            .card{
+                div{
+                    flex: 1 1 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

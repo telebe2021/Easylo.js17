@@ -1,0 +1,88 @@
+.section5 {
+    width: 100%;
+    padding: 50px 0;
+
+    .sec5con {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+
+        .sec52 {
+            width: calc(50% - 100px);
+            min-height: 565px;
+            position: relative;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .sec51 {
+            width: calc(50% - 100px);
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+
+            h1 {
+                color: #0f4332;
+                font-size: 40px;
+                line-height: 1.3;
+            }
+
+            p {
+                color: gray;
+                line-height: 1.5;
+            }
+
+            hr {
+                border: 1.5px solid rgba(3, 112, 77, 0.3);
+            }
+
+            ul {
+                li {
+                    font-size: 18px;
+                    display: flex;
+                    align-items: center;
+                    &::before {
+                        content: '\2022';
+                        color: #10c98f;
+                        font-size: 50px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            button {
+                border: 2px solid #10C98F;
+                padding: 17px 45px;
+                width: 220px;
+                text-transform: uppercase;
+                color: #10C98F;
+                font-size: 16px;
+                background: none;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    background-color: #10C98F;
+                    border: 2px solid #10C98F;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section5{
+        .sec5con{
+            flex-direction: column;
+            .sec51, .sec52{
+                width: 80%;
+            }
+        }
+    }
+}
